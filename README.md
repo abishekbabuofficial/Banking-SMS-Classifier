@@ -48,7 +48,7 @@ The BERT encoder is the core component of the BERT model, responsible for transf
 ![image](https://github.com/user-attachments/assets/dcedfb4b-c723-4c85-bf19-9b209e18c86b)
 
 
-##For Official Documentation Reference
+### For Official Documentation Reference
 https://www.tensorflow.org/text/tutorials/classify_text_with_bert
 
-#Thank You for Reaching out to my Repository
+# Thank You for Reaching out to my Repository
