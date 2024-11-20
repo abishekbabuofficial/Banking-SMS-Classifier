@@ -6,8 +6,11 @@ The repository explains and provides resources to build a BERT Text Classifier t
 ## Dataset
 Due to privacy reasons dataset for classifying Banking(Ham) and Non-Banking(Spam) messages are not published. Steps to prepare dataset follows:
 **Step 1:** Collect the necessary Banking and Non-Banking messages from different user with diversity in banks and include also some SPAM data as Non-Banking for accuracy.
+
 **Step 2:** Categorize the messages as Banking and Non-Banking in seperate column as shown below
+
 ![image](https://github.com/user-attachments/assets/d1dc0f12-1fe9-4ad8-9ced-cd49cf038db4)
+
 **Step 3:** The code for downsampling the data is given in the notebook which downsamples the excess data and prevents overfitting.
 
 
