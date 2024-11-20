@@ -1,6 +1,8 @@
 # Banking-SMS-Classifier
 The repository explains and provides resources to build a BERT Text Classifier that classifies the SMS text into Banking or Non-Banking messages. It uses BERT pre-processor and BERT encoder.
 
+###Try out the Working Model: https://huggingface.co/spaces/abishek-official/Bert_Text_Classification
+
 ##Dataset
 Due to privacy reasons dataset for classifying Banking(Ham) and Non-Banking(Spam) messages are not published. Steps to prepare dataset follows:
 **Step 1:** Collect the necessary Banking and Non-Banking messages from different user with diversity in banks and include also some SPAM data as Non-Banking for accuracy.
@@ -30,5 +32,13 @@ The BERT encoder is the core component of the BERT model, responsible for transf
 **Positional Awareness:** Includes positional embeddings to understand the order of tokens in the sequence.
 **Bidirectional Understanding:** Reads the text both forward and backward, enabling deep context understanding.
 
-**Note:** Here we used Encoder model-
+**Note:** Here we used Encoder model - https://tfhub.dev/tensorflow/bert_en_uncased_L-12_H-768_A-12/4
 
+##Flowchart of the project
+![image](https://github.com/user-attachments/assets/dcedfb4b-c723-4c85-bf19-9b209e18c86b)
+
+
+##For Official Documentation Reference
+https://www.tensorflow.org/text/tutorials/classify_text_with_bert
+
+#Thank You for Reaching out to my Repository
