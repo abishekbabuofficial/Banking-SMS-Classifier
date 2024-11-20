@@ -5,6 +5,7 @@ The repository explains and provides resources to build a BERT Text Classifier t
 
 ## Dataset
 Due to privacy reasons dataset for classifying Banking(Ham) and Non-Banking(Spam) messages are not published. Steps to prepare dataset follows:
+
 **Step 1:** Collect the necessary Banking and Non-Banking messages from different user with diversity in banks and include also some SPAM data as Non-Banking for accuracy.
 
 **Step 2:** Categorize the messages as Banking and Non-Banking in seperate column as shown below
@@ -19,9 +20,13 @@ Due to privacy reasons dataset for classifying Banking(Ham) and Non-Banking(Spam
 **The BERT preprocessor in text classification prepares raw text data for input into a BERT model. It performs the following key tasks:**
 
 **Tokenization:** Splits text into subword tokens using WordPiece or SentencePiece.
+
 **Adding Special Tokens:** Inserts [CLS] (classification token) at the start and [SEP] (separator token) at the end of the sequence.
+
 **Truncation/Padding:** Adjusts sequence length to fit the model's fixed input size.
+
 **Converts to IDs:** Maps tokens to their corresponding numerical IDs from BERT's vocabulary.
+
 **Generates Attention Masks:** Creates masks to indicate real tokens (1) versus padding (0). In our case 1-Banking Message, 0-Non Banking Message.
 
 ## What is BERT?
@@ -32,7 +37,9 @@ The BERT encoder is the core component of the BERT model, responsible for transf
 
 ### What It Does:
 **Contextual Embeddings:** Encodes each word in the text while considering its surrounding context, capturing the meaning of words with others.
+
 **Positional Awareness:** Includes positional embeddings to understand the order of tokens in the sequence.
+
 **Bidirectional Understanding:** Reads the text both forward and backward, enabling deep context understanding.
 
 **Note:** Here we used Encoder model - https://tfhub.dev/tensorflow/bert_en_uncased_L-12_H-768_A-12/4
